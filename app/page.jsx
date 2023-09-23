@@ -1,3 +1,4 @@
+import Feed from "@components/Feed";
 
 export const Home = () => {
   return (
@@ -12,7 +13,7 @@ export const Home = () => {
         create and share creative prompts.
       </p>
 
-      {/* Feed */}
+      <Feed />
     </section>
   )
 }
